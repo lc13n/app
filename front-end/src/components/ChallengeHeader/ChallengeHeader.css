@@ -1,0 +1,122 @@
+.challenge-header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #0f172a;
+  color: white;
+  border-bottom: 1px solid #1a2332;
+  height: 110px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.back-button {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.separator {
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  align-self: stretch; 
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.challenge-icon {
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.title-block .challenge-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.challenge-difficulty {
+  font-size: 12px;
+  color: #00e676;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.difficulty-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 32px;
+}
+
+.bar {
+  width: 4px;
+  border-radius: 3px;
+  
+}
+
+.bar.green {
+  background-color: #76ff03;
+}
+.bar.orange {
+  background-color: #ff9800;
+}
+.bar.red {
+  background-color: #f44336;
+}
+
+.difficulty-label {
+  font-size: 10px;
+  color: #a4b1cd;
+  margin-top: 6px;
+
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.points-icon {
+  font-size: 20px;
+  margin-bottom: 4px;
+  
+}
+
+.points-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.points-value {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.points-label {
+  font-size: 10px;
+  color: #00e676;
+
+}
